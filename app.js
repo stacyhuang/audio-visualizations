@@ -181,5 +181,4 @@ $(function() {
 
   visualizeFrequency();
   visualizeWaveform();
-  visualizeHeartbeat();
 });

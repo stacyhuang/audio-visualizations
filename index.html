@@ -2,29 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h2>Melody</h2>
+    <div class="app container">
+      <h2>Visualizations with Web Audio API</h2>
 
-    <div class="controls">
-      <button id="play">Play</button>
-      <button id="stop">Stop</button>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="visualizations">
+            <h4>Frequency Bar Graph</h4>
+            <canvas class="frequency" width="640" height="100"></canvas>
+            <h4>Waveform</h4>
+            <canvas class="waveform" width="640" height="100"></canvas>
+          </div>
 
-      <h3>Set volume</h2>
-      <input type="range" min="0" max="1" step="0.01" value="1" id="volume"/>
+          <div class="controls">
+            <button class="btn btn-primary" id="play">Play</button>
+            <button class="btn btn-primary" id="stop">Stop</button>
 
-      <h3>Set Playback rate</h2>
-      <input type="range" min="0.25" max="3" step="0.05" value="1" id="playback-rate" />
-    </div>
+            <h4>Set volume</h4>
+            <input type="range" min="0" max="1" step="0.01" value="1" id="volume"/>
 
-    <div class="visualizations">
-      <h3>Visualizations</h3>
-      <h4>Frequency</h4>
-      <canvas class="frequency" width="640" height="100"></canvas>
-      <h4>Waveform</h4>
-      <canvas class="waveform" width="640" height="100"></canvas>
+            <h4>Set Playback Rate</h4>
+            <input type="range" min="0.25" max="3" step="0.05" value="1" id="playback-rate" />
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
 
     <script src="app.js"></script>
