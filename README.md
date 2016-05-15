@@ -2,7 +2,15 @@
 
 Audio effects and visualizations with Web Audio API
 
-![image](https://farm8.staticflickr.com/7706/26984354316_f79f474775_c.jpg)
+[audio-visualizations.herokuapp.com](audio-visualizations.herokuapp.com)
+
+![image](https://farm8.staticflickr.com/7167/26744103690_4623954d46_c.jpg)
+
+## Installing Dependencies
+
+```
+npm install
+```
 
 ## Run
 
