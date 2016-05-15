@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Audio effects and visualizations with Web Audio API",
   "scripts": {
-    "start": "python -m SimpleHTTPServer"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stacyhuang/audio-visualizations.git"
   },
   "author": "Stacy Huang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
