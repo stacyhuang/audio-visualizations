@@ -2,7 +2,7 @@
 
 Audio effects and visualizations with Web Audio API
 
-[audio-visualizations.herokuapp.com](audio-visualizations.herokuapp.com)
+[https://audio-visualizations.herokuapp.com](https://audio-visualizations.herokuapp.com)
 
 ![image](https://farm8.staticflickr.com/7167/26744103690_4623954d46_c.jpg)
 
